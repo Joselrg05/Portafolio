@@ -107,6 +107,7 @@ body {
   content: "";
   display: block;
   width: 100%;
+  top: 20px;
   height: 4px;
   background: orangered;
   margin-top: 20px; /* Espacio entre el contenido y la línea */
@@ -118,33 +119,6 @@ body {
   position: relative;
 }
 
-#skills .skills-title {
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #2c3e50;
-  text-align: right;
-  margin-right: 0; /* Ajustar al borde derecho */
-  margin-bottom: 20px;
-  position: relative;
-}
-
-#skills p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  color: #333;
-  text-align: justify;
-  margin-top: 10px;
-}
-
-#skills::after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 80px;
-  height: 4px;
-  background: #140953;
-}
 #section-about-custom {
   padding: 4rem 0;
   background-color: #ffffff;
